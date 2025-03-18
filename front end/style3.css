@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #C8102E; /* University of Houston Red */
+    padding: 20px;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Styling */
+.container header {
+    font-size: 28px;
+    font-weight: 700;
+    color: #C8102E; /* University Red */
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.container header::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    background-color: #C8102E;
+    border-radius: 2px;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+.form-section h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #C8102E;
+    padding-bottom: 5px;
+}
+
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.input-field {
+    flex: 1 1 calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.input-field input, 
+.input-field select, 
+.input-field textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-field input:focus, 
+.input-field select:focus, 
+.input-field textarea:focus {
+    border-color: #C8102E;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #C8102E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #9A0C22;
+}

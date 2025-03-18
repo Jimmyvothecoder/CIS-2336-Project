@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app1.js" defer></script>
+</head>
+
+<!-- create a home page for the university of houston-->
+<body>
+    <ul class="tabs">
+        <li data-tab-target="#home" class=" active tab">Home</li>
+        <li data-tab-target="#skill" class="tab">Academic</li>
+        <li data-tab-target="#goals" class="tab">Admissions</li>
+        <li data-tab-target="#hobbies" class="tab">Campus</li>
+        <li data-tab-target="#events" class="tab"> Events</li>
+        <li data-tab-target="#faqpage" class="tab"> FAQ page</li>
+    </ul>
+
+<!-- create tabs for each category and have each tab contain content -->
+    <div class="tab-content">
+        <div id="home" data-tab-content class="active" >
+            <h2>University of Houston Sugarland</h2>
+            <img src="UH.jpeg" width="700" height="'600" alt="UH Main Campus" />
+            <figure>
+                <blockquote>
+                    <p>
+                        "Welcome to The University of Houston Sugarland location, Students!
+                        Embark on a journey of growth, learning, and discovery.
+                        Here, your aspirations will take flight, and opportunities will abound.
+                        Together, let's make your university experience truly extraordinary!"
+                    </p>
+                </blockquote>
+            </figure>
+            <img src="UH.png" alt="UH Sugarland Campus"/>
+
+            <div class="row">
+                <div class="column">
+                  <img src="rawImage.jpg" alt="Football Team" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="images.jpeg" alt="Swimming Practice Area" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="UHsoccer.jpg" alt="Mountains" style="width:100%">
+                </div>
+              </div>
+        </div>
+
+        <div id="skill" data-tab-content class="programs" >
+            <h2>College & Libraries</h2>
+            <table>
+                <tr>
+                    <td>Education</td>
+                    <td>Business</td>
+                    <td>Pharmacy</td>
+                    <td>Liberal Arts & Social Sciences</td>
+                    <td>Optometry</td>
+                    <td>Nursing</td>
+                </tr>
+                <tr>
+                    <td>Natural Science & Mathematics</td>
+                    <td>Architecture & Design</td>
+                    <td>Honors College</td>
+                    <td>LSocial Work, Graduate College</td>
+                    <td>Engineering, Cullen</td>
+                    <td>University of Houston Law Center</td>
+                </tr>
+                <tr>
+                    <td>Education</td>
+                    <td>Business</td>
+                    <td>Pharmacy</td>
+                    <td>Liberal Arts & Social Sciences</td>
+                    <td>Optometry</td>
+                    <td>Nursing</td>
+                </tr>
+                <tr>
+                    <td>Certification Programs</td>
+                    <td>Graduate School</td>
+                    <td>Master's Degree Programs</td>
+                    <td>Dual-Degree Programs</td>
+                    <td>Doctoral Degree Programs</td>
+                </tr>
+            </table>
+            
+            <video width"320" height="240" controls>
+                <source src="Schoolvideo.mp4" type="video/mp4">
+                <source src="Schoolvideo2.mp4" type="video/mp4">
+            </video>
+            
+            
+            </div>
+        <div id="goals" data-tab-content >
+            <h2>Admission</h2>
+            <table>
+                <tr>
+                    <td>Academic Advising</td>
+                    <td>Credits & Transfers</td>
+                    <td>Incoming Freshman</td>
+                    <td>Majors & Minors</td>
+                    <td>International Students</td>
+                </tr>
+                <tr>
+                    <td>Academic Resources</td>
+                    <td>College Readniess</td>
+                    <td>Explore Campus</td>
+                    <td>Take a Virtual Tour</td>
+                    <td>Residency Requirements</td>
+                </tr>
+                <tr>
+                    <td>Scholarship, Grants & Loans</td>
+                    <td>Tuitions & Fees</td>
+                    <td>How to Apply for Financial Aid</td>
+                    <td>Scholarships & Financial Aid Forms</td>
+                    <td>Find Your Financial Aid Advisor</td>
+                </tr>
+                <tr>
+                    <td>Student Housing & Residential Life</td>
+                    <td>New Student Orientation</td>
+                    <td>Refer a Coog</td>
+                </tr>
+            </table>
+            <video width"320" height="240" controls>
+                <source src="Schoolvideo2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="hobbies" data-tab-content >
+            <h2>Campus Information</h2>
+            <table>
+                <tr>
+                    <td>Campus Map & Destination</td>
+                    <td>Dining Hours</td>
+                    <td>MD Anderson Library</td>
+                    <td>Parking & Transportation</td>
+                    <td>UH at Katy</td>
+                </tr>
+                <tr>
+                    <td>UH at Sugarland</td>
+                    <td>UH Technology Bridge</td>
+                    <td>UH Shuttle Bus Routes</td>
+                    <td>Blaffer Art Museum</td>
+                    <td>Cullen Performance Hall</td>
+                </tr>
+                <tr>
+                    <td>Scholarship, Grants & Loans</td>
+                    <td>Tuitions & Fees</td>
+                    <td>How to Apply for Financial Aid</td>
+                    <td>Scholarships & Financial Aid Forms</td>
+                    <td>Find Your Financial Aid Advisor</td>
+                </tr>
+            </table>
+            <img src="cot1.jpg" alt="School building" />
+
+
+        </div>
+        <div id="events" data-tab-content>
+            <h2>Event Page</h2>
+            <table>
+                <tr>
+                    <td>Athletics Event Calender</td>
+                    <td>Specialty Calenders</td>
+                    <td>UH Event Calender</td>
+                    <td>Cullen Performance Hall</td>
+                    <td>Performance Arts</td>
+                </tr>
+                <tr>
+                    <td>UH Arts</td>
+                    <td>UH Newsroom</td>
+                    <td>Emergency Notification System</td>
+                    <td>Houston Public Media</td>
+                    <td>UH Magazine</td>
+                </tr>
+            </table>
+            <video width"320" height="240" controls>
+                <source src="schoolstadium.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="faqpage" data-tab-content>
+            <section>
+                <h2 class="title">FAQs</h2>
+
+                <div class="faq">
+                    <div class="question">
+                        <h3>How does a current student enroll for class at the University of Houston</h3>
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            The Dean of Students Office suggest that all students mert with their Academic Advisor
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question">
+                        <h3>How to declare a major at the University of Houston</h3>
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            Get in touch with an Academic Advisor
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question">
+                        <h3>Are there tutoring options for the University of Houston</h3>
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            University of Houston offer 2 different kinds of tutoring: Online and In-person.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question">
+                        <h3>How to register for housing at the University of Houston</h3>
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            Please visit the Student Housing and Residental Life to find many answers to your housing-related questions
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question">
+                        <h3>How to enroll for financial aid</h3>
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            Go to FAFSA official website and apply
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

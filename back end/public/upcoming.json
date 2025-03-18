@@ -1,0 +1,33 @@
+[
+    {
+      "room": "1",
+      "beds": "Kings",
+      "days": "Fall Semester 2024",
+      "pricing": "$1000"
+    },
+    {
+      "room": "2",
+      "beds": "Queen",
+      "days": "Fall Semester 2024",
+      "pricing": "$1200"
+    },
+    {
+      "room": "3",
+      "beds": "Double Kings",
+      "days": "Fall Semester 2024",
+      "pricing": "$1500"
+    },
+    {
+      "room": "4",
+      "beds": "Double Queens",
+      "days": "Fall Semester 2024",
+      "pricing": "$1000"
+    },
+
+    {
+        "room": "5",
+        "beds": "Bunk Bed",
+        "days": "Fall Semester 2024",
+        "pricing": "$1000"
+    }
+]
